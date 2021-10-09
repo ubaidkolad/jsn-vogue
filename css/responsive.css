@@ -1,0 +1,142 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1201px) and (max-width: 3200px) {
+  .mobile-background {
+    background-position-y: -200px !important ;
+  }
+  .banner-caption {
+    font-size: 1.7rem;
+  }
+  .page-footer {
+    background-position-y: -25px;
+  }
+  .pts {
+    font-size: 24px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1500px) {
+  .mobile-background {
+    background-position-y: -200px !important ;
+  }
+  .banner-caption {
+    font-size: 1.7rem;
+  }
+  .pts {
+    font-size: 24px;
+  }
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .flow-text {
+    margin-left: 40px;
+  }
+
+  .banner-caption {
+    font-size: 1.7rem;
+  }
+  .collection-item {
+    font-size: 12px;
+  }
+  .desktop {
+    font-size: 19px;
+  }
+  .footer-logo {
+    font-size: 15px;
+  }
+  .mobile-background {
+    background-position-y: -50px !important ;
+  }
+  .pts {
+    font-size: 24px;
+  }
+  .contact-background {
+    background-position-y: 70px;
+  }
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  .cap {
+    font-size: 2.8rem;
+  }
+  .collection-item {
+    font-size: 14px;
+  }
+  .desktop {
+    display: none;
+  }
+  .footer-logo {
+    font-size: 10px;
+  }
+  .pts {
+    font-size: 20px;
+  }
+  .contact-background {
+    background-position-y: 100px;
+  }
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+  #r {
+    flex-direction: column-reverse;
+  }
+
+  .flow-text {
+    text-align: center;
+  }
+  .cap {
+    font-size: 2.8rem;
+  }
+  .collection-item {
+    font-size: 11px;
+  }
+  .desktop {
+    display: none;
+  }
+  .download-icon {
+    height: 30px;
+    width: 30px;
+  }
+  .banner-caption {
+    letter-spacing: 10px;
+  }
+  .footer-logo {
+    font-size: 9px;
+  }
+  .pts {
+    font-size: 19px;
+  }
+  .contact-background {
+    background-position-y: 100px;
+    background-position-x: -150px;
+  }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  #r {
+    flex-direction: column-reverse;
+  }
+  .flow-text {
+    text-align: center;
+  }
+  .cap {
+    font-size: 2.8rem;
+  }
+  .collection-item {
+    font-size: 11px;
+  }
+  .desktop {
+    display: none;
+  }
+  .banner-caption {
+    letter-spacing: 10px;
+  }
+  .footer-logo {
+    font-size: 1px;
+  }
+  .pts {
+    font-size: 19px;
+  }
+}
